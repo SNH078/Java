@@ -1,2 +1,2 @@
 # Java
-Java tutorial LB - code 
+Java tutorial telusko - code 
