@@ -2,7 +2,7 @@
 
 // every constr. has super() even if u don't write it explicitly
 //so as soon as constr. is called super() is called first...i.e. its parent class const is called first ,,then remaining code of child const  is executed
-//if we pass parameter in super i.e. super(n) then parent class const with parameter is called else if there is default const it is called 
+//if we pass parameter in super i.e. super(n) then parent class const with parameter is called else if there is default const ,it is called 
 
 
 // super class of top parent  class is Object class
@@ -61,3 +61,4 @@ public class Superr1 {
 // 4.  super (5) in b default
 
 // 5. this --- goes to B default cont -> A def cont -> remaining code of param B const is executed 
+
