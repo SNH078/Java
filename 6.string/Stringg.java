@@ -12,13 +12,23 @@ public class Stringg {
         //  reference name now points to the new object, while "navin" remains unchanged.
         String s2 = "Navin";
 
-        System.out.println(s1 == s2);
+        System.out.println(s1 == s2); // true
     }
 }
+
+//🔹 Memory Diagram (Conceptual)
+// String Pool:
+//  └── "navin"
+//  └── " reddy"
+//  └── "navin reddy"
+//  └── "Navin"  ← s1 & s2 both point here
+
+
 
 //  Java optimizes memory by storing string literals in a special area called the String Pool.(avoiding duplicate storage.)
 //  If two strings have the same value, they share the same memory reference.
 // both s1 s2 point to same memory location in the String Pool
 
 // == checks if two objects refer to the same memory location.
+
 // .equals() checks content (actual characters in the string).
