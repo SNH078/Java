@@ -71,6 +71,38 @@ public class ZForname {
 
 //  NOW NOTICE WE hv been using static keyword in main class ...public static void main(String[] args) {
 // if we remove static from main method . main becomes non-static method
-// cz  , main is the starting point of the program 
+// cz  , main is the starting point of the program.
 // nd if the program has not started how can we make objects out of its class
+
 // static allows the JVM to directly invoke main().
+// Java follows this principle:   Program entry must be independent of object creation
+// JVM is designed to start execution without creating any objects. It does not assume or invoke constructors automatically.
+
+// ----------------------------------------
+// 🔹 1️⃣ JVM’s Responsibility at Startup
+
+// When you run: java MyClass
+// The JVM’s only guaranteed contract is:
+// Load the class
+// Look for : public static void main(String[] args)
+// Invoke it directly
+// 👉 Object creation is NOT part of JVM startup rules
+
+
+// JVM does not assume:
+// That a default constructor exists
+// That it is accessible (public)
+// That object creation is safe or desired
+
+// Example:
+// class A {
+//     A(int x) { }   // no default constructor
+// }
+
+// If JVM relied on constructors:
+// Which constructor should it call?
+// What arguments should it pass?
+
+// ❌ JVM avoids this ambiguity entirely.
+
+
