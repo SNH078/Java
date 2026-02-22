@@ -1,4 +1,6 @@
- class A {
+// No reference name
+// Used only once
+class A {
     public A(){
         System.out.println("object created");
     }
@@ -21,3 +23,4 @@ public class Anonymous_object {
         new A().show();   //**************** */
     }
 }
+
