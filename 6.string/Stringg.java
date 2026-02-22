@@ -5,7 +5,8 @@ public class Stringg {
         System.out.println("hello " + name);
 
         String s1 = "Navin"; // string is immutable in java
-        //Any modification results in a new object being created.
+
+// Immutable means once an object is created, its value cannot be modified. Any change creates a new object.
         
         // "navin" is stored in the String Pool.
         // modify it (name + " reddy"), a new String object "navin reddy" is created in the heap memory.
@@ -32,3 +33,4 @@ public class Stringg {
 // == checks if two objects refer to the same memory location.
 
 // .equals() checks content (actual characters in the string).
+
