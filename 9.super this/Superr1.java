@@ -11,19 +11,32 @@
 
 //this executes the current class  default constructor
 
+
+// 🔑 Core Rules (Must Remember)
+// 1️⃣ super() rule
+// Every constructor implicitly calls super() as the first statement
+// If you write super(...), the implicit super() is removed
+// Parent constructor always executes before child constructor
+
+// 2️⃣ this() rule
+// this() calls another constructor of the same class
+// It must be the first statement
+// You cannot use this() and super() together in the same constructor
+
+
 class A
 // clas A extends Object   (can also write this explicitly)
 {
 public A(){
     //2// super();
-    System.out.println("in A");
+    System.out.println("in A1");
 }
 public A(int n){
     //2 
     // super();
     // 3 
     // super(n);
-     System.out.println("in A int");
+     System.out.println("in A2 int");
  }
 }
 
@@ -34,7 +47,7 @@ public B(){
     // super();
     // 4
 //  super(5);
-    System.out.println("in B");
+    System.out.println("in B3");
 }
 public B(int n){
    //2 
@@ -43,11 +56,11 @@ public B(int n){
    // super(n);
    //5
    this();
-    System.out.println("in B int");
+    System.out.println("in B4 int");
 }
 }
 
-public class Superr1 {
+public class P {
     public static void main(String args[]){
         B obj = new B();
         B obj2 = new B(10);     
@@ -61,4 +74,3 @@ public class Superr1 {
 // 4.  super (5) in b default
 
 // 5. this --- goes to B default cont -> A def cont -> remaining code of param B const is executed 
-
