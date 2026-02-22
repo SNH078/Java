@@ -133,7 +133,13 @@ Count zero :
 int num = 10_00_00_000;
 System.out.println(num); 
 ```
+Java allows underscores (_) in numeric literals
+
+They are only for readability
+
+The value is exactly the same as:
 -> o/p :  100000000
+
 ![alt text](image-1.png)
 ------------------------
 
@@ -160,5 +166,6 @@ Stiring pool
 String buffer
 
 Static 
+
 
 Class load 
