@@ -119,7 +119,7 @@ flloat num = 5.6f    (NEED TO MENTION f)
 
 double num=5.6
 
- char c= ‘k’    ( ‘ ’ only , no “ “ )
+ char c= ‘k’    ( ` ` only , no “ “ )
 
 boolean   ( only true/false not 0/1)
 
