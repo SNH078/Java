@@ -14,7 +14,7 @@ Reflection API
 module-info.java (Java 9 Modular Programming)
 
 
-# must do  ( other r rarelyyy asked or too much for a frehser --no need)
+# must do  ( others r rarelyyy asked or too much for a fresher --no need)
 
 ✅ Method Reference (ClassName::methodName)
 
