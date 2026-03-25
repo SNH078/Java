@@ -1,4 +1,4 @@
-// inhertiance is same as C++ ...amibiguty also same as c++
+
 // Method overriding 
 
 //In java , multiple inheritance does not exist.=> no ambiguity
