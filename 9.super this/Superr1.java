@@ -1,7 +1,7 @@
 // 05:49:36 this and super method
 
 // every constr. has super() even if u don't write it explicitly
-//so as soon as constr. is called super() is called first...i.e. its parent class const is called first ,,then remaining code of child const  is executed
+//so as soon as constr. is called ..super() is called first...i.e. its parent class const is called first ,,then remaining code of child const  is executed
 //if we pass parameter in super i.e. super(n) then parent class const with parameter is called else if there is default const ,it is called 
 
 
@@ -15,7 +15,7 @@
 // 🔑 Core Rules (Must Remember)
 // 1️⃣ super() rule
 // Every constructor implicitly calls super() as the first statement
-// If you write super(...), the implicit super() is removed
+// If you write super(...)  i.e. parameterized, the implicit super() is removed
 // Parent constructor always executes before child constructor
 
 // 2️⃣ this() rule
