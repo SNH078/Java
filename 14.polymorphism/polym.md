@@ -40,6 +40,9 @@
       void sound() { System.out.println("Bark"); }
   }
 ```
+In Java method overriding, the output is decided by:
+👉 Object type at runtime (not reference type) 
+
 
 | Feature          | Java            | C++            |
 | ---------------- | --------------- | -------------- |
@@ -47,7 +50,8 @@
 | Keyword needed   | ❌ No            | ✅ `virtual`    |
 
 <img width="334" height="532" alt="image" src="https://github.com/user-attachments/assets/87a35180-b59a-43e5-946c-5019a9d857c7" />
-
+<img width="398" height="538" alt="image" src="https://github.com/user-attachments/assets/b8619e5a-c6bc-4e9a-9020-846f9ec8c45f" />
+<img width="540" height="362" alt="image" src="https://github.com/user-attachments/assets/4bfb3589-29ce-422c-b20a-ad1a14832284" />
 
 Java → simpler, safer, automatic polymorphism
 
