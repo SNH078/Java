@@ -4,8 +4,8 @@
 // enable you to declare and instantiate a class at the same time.
 // helpful in case of abstract clss 
 // Directly method override kar sakte ho bina extends 
-// Ek hi baar use hone wale class ke liye extra class banane ki zarurat nahi
-// Event handling aur lambda expressions ke liye useful
+// 👉 “You can override a method directly without creating a separate named class using extends.”
+//👉 “There is no need to create an extra class for something that is used only once.”
 
 //single-use code ,, have a short implementation that does not need to be reused.
 // -------- DIS ---------
