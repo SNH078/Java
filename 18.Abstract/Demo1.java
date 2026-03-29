@@ -1,4 +1,7 @@
-// can't create object of the the class (no instatiation)
+// can't create object of the the class (no Instantiation )
+
+// 👉 Instantiation is the process of creating an object of a class.
+
 // if there is abstract method then it should be in abstract class ...or the class should be made abstract 
 // its not compulsary to have abstract method in abstrat class ...an abs class can cantain abs method / only non-abs / both abs ,non-abs ...
 
