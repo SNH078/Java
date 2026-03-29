@@ -16,6 +16,11 @@ class MyException extends Exception {
 }
 // Should MyException Extend Exception or RuntimeException?
 // -> depends on whether you want your exception to be checked or unchecked.
+//Extend Exception (Checked Exception) ...👉 Must use try-catch OR throws
+
+// Extend RuntimeException (Unchecked Exception)
+//👉 No need to force handling
+// ✅ When to use: Programming errors , Logical mistakes
 
 public class Demo3Throw {
     public static void main(String[] args) {
