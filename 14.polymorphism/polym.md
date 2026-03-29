@@ -17,6 +17,17 @@
 ### 1. Method  - overriding ->
  **🚨c ++** : Must explicitly use virtual ;  👉 If you don’t use virtual, polymorphism won’t work properly
 
+🔥 Key Rule (C++)
+
+👉 The output depends on whether the function is declared virtual or not 
+
+C++ uses compile-time binding by default
+
+Decision is based on pointer/reference type (Animal*)
+
+<img width="491" height="632" alt="image" src="https://github.com/user-attachments/assets/b84908e4-a7a5-465c-afbd-c4b9872db2c0" />
+<img width="455" height="647" alt="image" src="https://github.com/user-attachments/assets/647a0c0e-3e9c-40b7-9db9-a95e431dbf95" />
+
 ```cpp
   class Animal {
   public:
@@ -28,6 +39,7 @@
       void sound() override { cout << "Bark"; }
   };
 ```
+----
 
 **🚨 java :**  All non-static methods are virtual by default ; 👉 No need to write virtual.
 
