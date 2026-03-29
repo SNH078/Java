@@ -1,7 +1,7 @@
 Map : func inf ,
 takes  Function<T,T> object
 Function has apply() method 
-```
+```java
 import java.util.*;                        // For List, Arrays, Collections, etc.
 import java.util.stream.*;                // For Stream, Collectors, etc.
 import java.util.function.*;              // For Function, Predicate, Consumer, etc.
