@@ -9,12 +9,15 @@
 
 -> Examples: Serializable, Cloneable, Remote.
 
+---
 **Functional Interfaces :**
 
 ->one abstract method  (can have default & static methods).
 
 ->Used for Lambda Expressions & functional programming.
 ->
+
+---
 
 **Single Abstract Method (SAM) Interfaces :** 
 
@@ -23,6 +26,8 @@
 -> use : Before Java 8, these were used to define Lambda-compatible interfaces.
 
 ->  Examples: Runnable, Comparator, MouseListener.
+
+---
 
 **Normal Interfaces :** 
 
@@ -38,6 +43,8 @@
 -> refers to capability of an object to be converted into a format((such as JSON, binary, or XML) ) that can be stored or transmitted and then reconstructed later.
 
 -> use : used in data persistence, networking, and inter-process communication.
+
+---
 
 **Deserialization**
 
