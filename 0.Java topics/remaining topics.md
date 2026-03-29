@@ -1,8 +1,12 @@
 🧩 Missing Topics List (Advanced Java Concepts)
+
 Generics
+
 Method References (ClassName::methodName)
+
 Optional Class
-selaed class , record class  (Java 15+ features, not used in most real-world codebases yet)
+
+sealed class , record class  (Java 15+ features, not used in most real-world codebases yet)
 <!-- Singleton Pattern
 
 Factory Pattern
