@@ -5,6 +5,7 @@
 // helpful in case of abstract clss 
 // 👉 “You can override a method directly without creating a separate named class using extends.”
 //👉 “There is no need to create an extra class for something that is used only once.”
+// useful for  Event handling & lambda expressions 
 
 //single-use code ,, have a short implementation that does not need to be reused.
 // -------- DIS ---------
