@@ -1,7 +1,4 @@
-// Poly morph -> many - form
-// compile time(overloading) , run time(overriding)
 
-// Method  -overriding ->
 
 // Parent class A
 class A {
