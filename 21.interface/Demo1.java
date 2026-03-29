@@ -2,7 +2,10 @@
 // use :  achieve 100% abstraction and multiple inheritance in Java.
 // adv :  Java does not support multiple class inheritance, but multiple interfaces can be implemented.
 
-
+// Methods are abstract by default  
+// Variables are public, static, final
+// Cannot create objects of an interface
+// Used to achieve abstraction and multiple inheritance
 
 //  class ->class : extends ;
 //  class ->interface : implements 
