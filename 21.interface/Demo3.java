@@ -1,4 +1,4 @@
-// need of interface  :to helps in loose coupling 
+// need of interface  : helps in loose coupling 
 // ( Code becomes more flexible and independent(developer object becomes indepedent of tyepe of object laptop or desktop))
 
 //  *** 
