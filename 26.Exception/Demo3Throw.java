@@ -1,4 +1,4 @@
-// THROW EXCEPTION --- buildtin exception & custom exception
+// THROW EXCEPTION --- builtin exception & custom exception
 // manually generate an exception
 // throws exception, catch block catches it
 
