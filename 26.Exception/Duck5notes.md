@@ -1,3 +1,15 @@
+<img width="804" height="794" alt="image" src="https://github.com/user-attachments/assets/c2fe5998-01ba-4350-899d-5afab45b7480" />
+<img width="817" height="792" alt="image" src="https://github.com/user-attachments/assets/0cbbf18a-5f0f-41dd-842c-df3061e915de" />
+
+
+| Feature      | Handling    | Ducking       |
+| ------------ | ----------- | ------------- |
+| Keyword      | `try-catch` | `throws`      |
+| Who handles? | Same method | Caller method |
+| Control      | Immediate   | Passed upward |
+
+----
+ 
  // see image duck4.png
 
  if a method c is calling method d and e
