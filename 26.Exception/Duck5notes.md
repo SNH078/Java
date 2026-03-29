@@ -27,13 +27,13 @@ this is called ducking
 <!-- ---------  -->
 in Demo4Throws.java
  
-we can't write throws exception with main method cz 
-main method is called by JVM nd we if we ask JVM to handle exception
+we can't write throws exception with main method cz  
+main method is called by JVM nd we if we ask JVM to handle exception  
 nd it will stop code execution if execption is detected 
 
 <!-------------------->
-we can have to ways for exeption handling in such case :
-1 . write ..throws exception both in main & in that method
+we can have to ways for exeption handling in such case :  
+1 . write ..throws exception both in main & in that method  
 2. write try nd catch block in main & throws in the method whose execption is to be handled 
-
+ 
 // 1 is not a feasible option
