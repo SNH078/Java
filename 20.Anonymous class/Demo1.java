@@ -3,7 +3,6 @@
 // makes code more concise.
 // enable you to declare and instantiate a class at the same time.
 // helpful in case of abstract clss 
-// Directly method override kar sakte ho bina extends 
 // 👉 “You can override a method directly without creating a separate named class using extends.”
 //👉 “There is no need to create an extra class for something that is used only once.”
 
