@@ -1,15 +1,26 @@
 🔥  When to Use Abstract Class vs Interface?
+
 ✅ Use Abstract Class When:
+
 ✔ You want some methods with implementation and some abstract methods.
+
 ✔ You need instance variables that change per object.
+
 ✔ You need constructors.
+
 ✔ You want single inheritance.
 
+
 ✅ Use Interface When:
+
 ✔ You want 100% abstraction (No method implementation).
+
 ✔ You need multiple inheritance (since Java allows implementing multiple interfaces).
+
 ✔ You want to define constants (final static variables).
+
 ✔ You are defining a contract for other classes.
+
 
 -----------------------------------------------------------------------------------------------------------
 Abstract                                            Interface 
