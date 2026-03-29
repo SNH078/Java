@@ -57,7 +57,7 @@ public class Demo1{
     obj3.run();
 
      // 2
-    // obj1.area="Banglore"; // not allowed as it is final
+    // obj1.area="Bangalore"; // not allowed as it is final
     System.out.println(obj1.age);
 
 
