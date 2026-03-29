@@ -55,7 +55,7 @@ Decision is based on pointer/reference type (Animal*)
 In Java method overriding, the output is decided by:
 👉 Object type at runtime (not reference type) 
 
-
+----
 | Feature          | Java            | C++            |
 | ---------------- | --------------- | -------------- |
 | Default behavior | Dynamic binding | Static binding |
@@ -65,6 +65,12 @@ In Java method overriding, the output is decided by:
 <img width="398" height="538" alt="image" src="https://github.com/user-attachments/assets/b8619e5a-c6bc-4e9a-9020-846f9ec8c45f" />
 <img width="540" height="362" alt="image" src="https://github.com/user-attachments/assets/4bfb3589-29ce-422c-b20a-ad1a14832284" />
 
+--- 
+**c++ & java : **
+👉 Variables do NOT support polymorphism (no runtime binding)
+👉 They are resolved using the reference/pointer type (compile-time)
+
+ --- 
 Java → simpler, safer, automatic polymorphism
 
 C++ → more control, more complexity
