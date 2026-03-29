@@ -10,7 +10,8 @@
 
 ----
  
- // see image duck4.png
+![duck4](Duck4.png)
+![duck5](Duck5.png)
 
  if a method c is calling method d and e
 
