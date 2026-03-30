@@ -6,7 +6,7 @@ Java tutorial telusko - code
 ````
 console.log("abcd");
 
-```
+```js
 console.log("abcd");
 
 ```
